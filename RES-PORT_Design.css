@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+  font-family: 'Heebo', sans-serif;
+}
+.perinfo{
+  line-height: 0.9;
+  margin: auto;
+  padding: 35px;
+  text-align: justify;
+  text-justify: inter-word;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, white, #fcfdff);
+}
+body{
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #0045b3, #003a96);
+}
+img{
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  float: right;
+}
+#name{
+  font-weight: 900;
+  font-kerning: normal;
+  font-size: 65px;
+  color: #0049bd;
+}
+#job{
+  font-weight: 400;
+  font-kerning: normal;
+  font-size: 25.5px;
+  line-height: 0.9;
+  font-kerning: normal;
+  color: #0043ad;
+}
+#profLabel, #objLabel, #educLabel, #skillsLabel, #refLabel{
+  font-weight: 800;
+  font-style: normal;
+  font-size: 33.5px;
+  color: #002d75;
+}
+.infoPer{
+  font-size: 24px;
+  line-height: 1.2;
+  display: grid;
+  grid-template-columns: 1.3fr 0.7fr;
+  column-gap: 12px;
+  color: #0043ad;
+}
+.techSoftSkills{
+  font-size: 24px;
+  line-height: 1.2;
+  display: grid;
+  color: #0043ad;
+  grid-template-columns: 1.3fr 0.7fr;
+  column-gap: 12px;
+}
+.charRef{
+  font-size: 24px;
+  line-height: 1.2;
+  display: grid;
+  color: #0043ad;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 12px;
+}
+.educk{
+  font-size: 20px;
+  line-height: 0.9;
+  display: grid;
+  grid-template-columns: 0.5fr 1.5fr;
+  column-gap: 35px;
+  color: #0043ad;
+}
+.objective{
+  font-size: 28.5px;
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 1.4;
+  color: #0043ad;
+}
+#dates{
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 1.4;
+  color: #0049bd;
+  padding-left: 25px;
+}
+#senHigh, #junHigh, #elem{
+  line-height: 1.4;
+  font-size: 26.5px;
+}
+#awards, #expertise, #refName{
+  font-weight: 500;
+}
+#educLevel{
+  font-weight: 800;
+}
+hr{
+  border-top: 5px dashed #002d75;
+}
+#credits{
+  color: #0043ad;
+}
+b{
+  color: #003a96;
+}
+a:hover{
+  background-color: yellow;
+  color: #0049bd;
+  font-weight: 700;
+  letter-spacing: 2px;
+  animation: ease;
+  font-size: 25px;
+}
+a{
+  color: #005beb;
+}
+@@media screen and (max-width: 800px) {
+  #name{
+    font-size: 25px;
+  }
+  #job{
+    font-size: 17px;
+  }
+}
